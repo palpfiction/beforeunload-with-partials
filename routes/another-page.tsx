@@ -13,8 +13,7 @@ export default function AnotherPage() {
           This is another page
         </h1>
         <p>
-          It worked, right? now checkout the branch{" "}
-          <code >origin/using-partials</code> to see it fail
+          It didn't ask for confirmation
         </p>
       </div>
     </div>

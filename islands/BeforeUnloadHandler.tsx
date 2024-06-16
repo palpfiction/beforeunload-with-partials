@@ -18,11 +18,11 @@ export default function BeforeUnloadHandler() {
   return (
     <div class="px-4 py-8 mx-auto">
       <h1>
-        This island will handle the beforeunload event to prevent you from
-        leaving the page without confirmation
+        This island won't handle the beforeunload event because we are using
+        Partials
       </h1>
 
-      <a href="/another-page">Go to another page</a>
+      <a href="/another-page">Go to another page and check it out</a>
     </div>
   );
 }
